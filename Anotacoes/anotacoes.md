@@ -44,3 +44,27 @@ docker run -d -p 80:80 nginx
 ```
 docker stop <id ou nome>
 ```
+
+## Para reiniciar um container (que já foi iniciado antes)
+
+```
+docker start <id>
+```
+
+## Como atribuir nome a um container
+
+```
+docker run -d -p 80:80 --name nginx_app nginx
+```
+
+## Para verificar logs
+
+```
+docker logs nginx_app
+```
+
+## Para remover um container
+
+```
+docker rm <id>
+```
