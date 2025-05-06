@@ -45,3 +45,27 @@ docker build -t nometeste:tagteste .
 ```
 docker rmi <nome ou id>
 ```
+
+## Para criar a imagem para subir no dockerHub
+
+```
+docker build -t username/nomerepositorio .
+```
+
+## Para subir pro hub
+
+```
+docker push username/nomerepositorio
+```
+
+## Para puxar do hub
+
+```
+docker pull username/nomerepositorio
+```
+
+## Atualizar imagem no hub
+
+```
+docker build -t juliooamorim/nodeteste:novaversao .
+```

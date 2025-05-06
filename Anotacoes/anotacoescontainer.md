@@ -68,3 +68,21 @@ docker logs nginx_app
 ```
 docker rm <id>
 ```
+
+## Inspecionar container
+
+```
+docker inspect <id>
+```
+
+## Autenticação no terminal
+
+```
+docker login
+```
+
+## Encerrar autenticação
+
+```
+docker logout
+```
